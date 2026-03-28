@@ -39,4 +39,4 @@ LATENT_REG_NUM_PROJ=128 \
 LATENT_REG_TOKEN_STRIDE=8 \
 LATENT_REG_WARMUP_STEPS=1000 \
 LATENT_REG_SYNC=0 \
-torchrun --standalone --nproc_per_node=8 train_gpt_tied4x7_sigreg_v2.py
+torchrun --standalone --nproc_per_node=8 train_gpt_tied4x7_sigreg.py
